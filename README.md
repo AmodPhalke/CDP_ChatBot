@@ -11,3 +11,7 @@ There are total of 4 Customer Data Platforms (CDP):
       4. Zeotap
 
 The job of Chatbot is to extract relevant information appropriately from each of the CDP's documentation, and guide the users to perform a task or achieve the desired output.
+
+Project Roadmap:
+
+      **Define the Objective**
