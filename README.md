@@ -5,6 +5,7 @@ Chatbot is an **application of Artificial Intelligence, that interacts with the 
 **This Chatbot answers "how-to" questions asked which are related to Customer Data Platforms.**
 
 There are total of 4 Customer Data Platforms (CDP):
+      
       1. Segment
       2. mParticle
       3. Lytics
