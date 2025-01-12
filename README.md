@@ -13,6 +13,7 @@ There are total of 4 Customer Data Platforms (CDP):
 The job of Chatbot is to extract relevant information appropriately from each of the CDP's documentation, and guide the users to perform a task or achieve the desired output.
 
 Project Roadmap:
+
       1. Extraction of relevant information from each of CDP's documentation.
       2. Conversion of extracted data into embeddings for easy and efficient querying.
       3. Understanding the input query using Intents and Pre-trained models.
