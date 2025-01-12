@@ -14,4 +14,4 @@ The job of Chatbot is to extract relevant information appropriately from each of
 
 Project Roadmap:
 
-      **Define the Objective**
+      ** Objective - The Objective of the Chatbot is to extract relevant information from the documentation and answer the user's question. **
