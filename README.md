@@ -2,7 +2,16 @@
 
 Chatbot is an **application of Artificial Intelligence, that interacts with the user, and answers the frequently asked questions**, frees the human resources to prioritize and focus on more critical tasks.
 
-**This Chatbot answers "how-to" questions asked which are related to Customer Data Platforms.**
+**In this project, the Chatbot answers "how-to" questions asked which are related to Customer Data Platforms.**
+
+There are different types of Chatbots:
+
+      1. FAQ Chatbot
+      2. Recommendation Chatbot
+      3. Customer Support Chatbot
+      4. Context Aware Chatbot
+
+Here, for this project we are supposed to create a **context-aware chatbot**, where the chatbot is supposed to respond back the user queries, by extracting the relevant information from the documentations, handle cross-document queries and provide relevant feedback to irrelevant questions asked.
 
 There are total of 4 Customer Data Platforms (CDP):
       
@@ -22,9 +31,7 @@ Core Capabilities of a Chatbot:
 
 Project Roadmap:
 
-Here, for this project we are supposed to create a **context-aware chatbot**, where the chatbot is supposed to respond back the user queries, by extracting the relevant information from the documentations, handle cross-document queries and provide relevant feedback to irrelevant questions asked.
 The plan is as follows:
-
 
   A. Processing - Parse the documents, and make use of NLP for extraction of relevant information. 
 
@@ -55,4 +62,13 @@ The plan is as follows:
             Here, cosine similarity refers to a metric, that focuses on Direction and not on the Magnitude, making it ideal for text-based applications.
             
       3. Handling Irrelevant requests and Cross-Document queries.
-      
+
+
+Libraries to be used for this Project:
+
+      1. pip install flask
+      2. pip install requests beautifulsoup4
+      3. pip install sentence-transformers
+      4. pip install transformers
+      5. pip install transformers torch scikit-learn
+
