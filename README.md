@@ -15,8 +15,13 @@ The job of Chatbot is to extract relevant information appropriately from each of
 
 Project Roadmap:
 
+Here, for this project we are supposed to create a context-aware chatbot, where the chatbot is supposed to respond back the user queries, by extracting the relevant information from the documentations, handle cross-document queries and provide relevant feedback to irrelevant questions asked.
+The plan is as follows:
+
       1. Extraction of relevant information from each of CDP's documentation.
-            Extraction of data is possible by making use of libraries like BeautifulSoup, PyPDF2, pdfplumber.
+            Extraction of data could be possible by making use of libraries like:
+            a. HTML/Webpage based Data: BeautifulSoup.
+            b. PDF Data: PyPDF2, pdfplumber.
             Summarization of retreived data can be performed by making use of Transformers.
       2. Conversion of extracted data into embeddings for easy and efficient querying.
       3. Understanding the input query using Intents and Pre-trained models.
