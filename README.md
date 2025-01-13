@@ -11,6 +11,16 @@ There are different types of Chatbots:
       3. Customer Support Chatbot
       4. Context Aware Chatbot
 
+
+Rough Idea, about the steps required for creation of a Chatbot:
+
+      1. Requirement and Setup of a Development Environment.
+      2. Problem Statement and Objective Definition.
+      3. Pre-processing the collected or created Raw Data.
+      4. Training a Machine Learning Model/Transformer. 
+      5. Interface building.
+      6. Testing
+
 Here, for this project we are supposed to create a **context-aware chatbot**, where the chatbot is supposed to respond back the user queries, by extracting the relevant information from the documentations, handle cross-document queries and provide relevant feedback to irrelevant questions asked.
 
 There are total of 4 Customer Data Platforms (CDP):
