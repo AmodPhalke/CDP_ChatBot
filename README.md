@@ -43,35 +43,32 @@ Project Roadmap:
 
 The plan is as follows:
 
-  A. Processing - Parse the documents, and make use of NLP for extraction of relevant information. 
+  A. Data Preparation: 
 
       1. Extraction of relevant information from each of CDP's documentation.
-            Extraction of data could be possible by making use of libraries like:
-            a. HTML/Webpage based Data: BeautifulSoup.
-            b. PDF Data: PyPDF2, pdfplumber.
-            
-      2. Summarization of retreived data (Extractive Summarization) can be performed by making use of Transformers. 
-            Here, transformers are the class of deep learning models, mostly used for NLP that make use of Attention Mechanism.  
+            The data from the URL’s provided, can be extracted by making use of Web Scraping, which can be defined as the process of                         automatically extracting and storing huge amounts of data from the websites. 
+            Libraries used: PyPDF2, requests, PDFPlumber, BeautifulSoup.
 
-  B. Indexing - Also, convert textual data into numerical data by making use of Semantic Embeddings that facilitates easy querying.
-  
-      1. Conversion of extracted data into embeddings for easy and efficient querying.
-            Embeddings can be defined as the numerical representations of textual data in a high-dimensional space. 
-            These embeddings helps the computers in understanding meaning, context and relationships of words and sentences.
-            Libraries for performing Semantic Embeddings:
-            a. sentence-transformers
-            b. OpenAI GPT Embeddings
+            The extracted data gets saved in .txt files. Once, we have the data prepared for us, we can go ahead with Indexing and Embedding.
+       
+  B. Indexing:
 
-  C. Understanding - Making use of NLP models to understand the input prompts/queries. This helps in classification of queries - Irrelevant or Relevant. 
+      1. Indexing facilitate fast and efficient retrieval of relevant information when users ask questions.
+            Types:
+               - TDIDF Indexing: Key-word based searches.
+               - Embedding Indexing: Understand context and meaning.
   
-      1. Understanding the input query using Intents and Pre-trained models.
-            Pre-trained Models like GPT2, GPT3 etc. can be used to classify the queries as Relevant and Irrelevant.
-            
-      2. Retreival of relevant content.
-            The goal is to make use of cosine similarity, to match the input queries with document embeddings. 
-            Here, cosine similarity refers to a metric, that focuses on Direction and not on the Magnitude, making it ideal for text-based applications.
-            
-      3. Handling Irrelevant requests and Cross-Document queries.
+           
+
+  C. Querying: 
+  
+      1. Once, we have the cleansed documentation got indexed by TFIDF or Embedding we can proceed with Querying.
+            It involves, providing prompts to the chatbot and looking if the chatbot answers them correctly.
+
+
+  D. Front-end/UI Development:
+
+      1. Flask is the lightweight frontend framework provided by Python Programming Language, that helps development of light weight web                  applications
 
 
 Libraries to be used for this Project:
@@ -80,5 +77,7 @@ Libraries to be used for this Project:
       2. pip install requests beautifulsoup4
       3. pip install sentence-transformers
       4. pip install transformers
-      5. pip install transformers torch scikit-learn
+      5. from sklearn.metrics.pairwise import cosine_similarity
+      6. from sklearn.feature_extraction.text import TfidfVectorizer
+      
 
