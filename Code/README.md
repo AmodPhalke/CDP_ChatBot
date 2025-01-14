@@ -21,5 +21,13 @@ To run this project, you will need the following:
 - NumPy
 - scikit-learn
 
+##Example Questions
+
+Here are some example questions you can ask the chatbot:
+
+**"How do I set up a new source in Segment?"**
+**"What are the key features of mParticle?"**
+**"How can I create a user profile in Lytics?"**
+
 You can install the required packages using pip:
 
