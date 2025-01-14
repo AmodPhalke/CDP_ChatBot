@@ -21,7 +21,7 @@ To run this project, you will need the following:
 - NumPy
 - scikit-learn
 
-##Example Questions
+## **Example Questions**
 
 Here are some example questions you can ask the chatbot:
 
